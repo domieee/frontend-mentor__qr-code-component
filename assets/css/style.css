@@ -19,8 +19,8 @@ body {
 }
 body .content {
   background-color: hsl(0deg, 0%, 100%);
-  width: 320px;
-  height: 500px;
+  max-width: 320px;
+  width: 100%;
   padding: 13px;
   border-radius: 15px;
   box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.2);
@@ -44,8 +44,9 @@ body .content article h1 {
 }
 body .content article p {
   color: hsl(220deg, 15%, 55%);
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 400;
+  margin-bottom: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
